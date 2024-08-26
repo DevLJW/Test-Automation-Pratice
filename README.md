@@ -70,9 +70,16 @@ HTML의 id나 class name 등을 통해 웹페이지에서 원하는 엘리먼트
 <br>
 <br>
 
-### 3. 게시글 작성
+### 3. 복합액션
  <img src="https://github.com/user-attachments/assets/eda3f001-d725-45e7-a9cd-622d91e8c961" width="80%" height="60%">
   <br><br><br>
+  사용자가 액션을 여러 개 연결해서 순차적으로 실행하는 복합적인 과정에 대하여<br>
+  액션을 공부 하였습니다. (EX : Ctrl + 마우스 클릭 / 클릭 + 드래그 앤 드롭)<br>
+  Actions 클래스를 사용하면 사용자 동작을 하나의 복합 액션으로 만들 수 있어서,<br>
+  Actions 클래스를 사용하였고, 복합 액션을 실행하는 perform() 메소드를 사용하여 실행 하였습니다.
+  <br>
+  <br>
+  
 
  
 
