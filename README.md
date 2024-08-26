@@ -105,6 +105,8 @@ WebDriver 인터페이스의 swithchTo().frame() 메소드를 통하여 프레�
 <br><br>
 
 ### 6. 윈도우 창 전환
+ <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
+  <br><br><br>
 윈도우 간 창 전환에 대하여 공부 하였습니다. WebDriver.TargetLocator 인터페이스를 적용하여 구현 했습니다.<br>
 윈도우 창을 열때마다, 윈도우에서 윈도우 창에 대한 식별값을 지정 해줍니다.<br>
 gethandleWindow() 메소드를 통하여 현재 실행한 웹 브라우저의 식별 값을 가져옵니다.<br>
@@ -119,26 +121,46 @@ gethandleWindow() 메소드를 통하여 현재 실행한 웹 브라우저의 �
 
 <br><br>
 
-### 7. 페이징네이션
+### 7. 쿠키 핸들링
  <img src="https://github.com/user-attachments/assets/ce895209-a1fa-485d-8033-40f67e585156" width="100%" height="100%">
   <br><br><br>
-페이징네이션은 페이지당 10개의 게시글로 구성이 되어 있습니다.<br>
-1~10번 게시글은 1페이지, 11~20번의 게시글은 2번페이지로 구성이 되어 있습니다.<br>
-3번 페이지 클릭시, 백엔드 Refetch API에 30 + 1로 시작값이 설정이되고, 40번까지의 게시글 값을 가져오게 됩니다.
+내용 작성하기!
 <br><br>
 
 
-### 8. 댓글 작성 ~ 댓글 삭제
- <img src="https://github.com/user-attachments/assets/cf13e26e-8757-4626-9af6-4e3ca54b38f4" width="100%" height="60%">
+### 8. 웹 드라이버 이벤트
+  <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
+  <br><br><br>
 
+내용 작성하기!
 
   <br><br><br>
-댓글작성과 수정은 최대 100자까지 입력이 가능하며, 입력하기 버튼시, 입력데이터가 백엔드API 파라미터로 전달되며,<br>
-백엔드에서 TypeORM을 통해 DB에 저장시켜 줍니다. 수정 같은경우, 기존작성했던내용과 동일해선 안됩니다.<br>
-댓글 삭제하기는 게시글 상세화면에서 삭제아이콘을 클릭한 게시글의 댓글 ID를 백엔드 API에 파라미터로 넘겨 해당 댓글을 삭제 합니다.<br>
-삭제 시, 리렌더가 적용되어 게시글 상세 페이지 화면에 바로 업데이트 됩니다.
 
-<br><br>
+### 9. 접근성 추정
+  <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
+  <br><br><br>
+
+내용 작성하기!
+
+  <br><br><br>  
+
+### 10.셀레늄 서버 + 리모트 드라이버
+  <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
+  <br><br><br>
+
+내용 작성하기!
+
+  <br><br><br>  
+
+  ### 11. Sauce Labs
+  <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
+  <br><br><br>
+
+내용 작성하기!
+
+  <br><br><br>  
+
+
 
 
 
