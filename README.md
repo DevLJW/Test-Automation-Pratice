@@ -44,31 +44,31 @@
 <br>
 
 ## 공부한 내용 소개
-### 1. 회원가입
+### 1. 어노테이션 이해 
  <img src="https://github.com/user-attachments/assets/089e63cb-d3f5-4584-a6fd-2e3500c0484d" width="100%" height="60%">
  <br><br><br>
-회원가입 필드는, 이메일,이름,닉네임,패스워드,패스워드 확인,연락처 인증번호 확인란으로 구성이 되어 있습니다.<br>
-Form 같은 경우, React-Hook-Form으로 구성을 했습니다. 리렌더를 최소화 시키고, 실시간 동기화를 하기 위하여 사용 했습니다.<br>
-인증 메세지 같은경우, Cool-SMS API를 사용 했습니다.<br>
-회원가입 성공 시, JOIN_USER API를 호출하여 입력받은 값을 TypeOrm을 통하여 DB에 저장시킵니다.<br>
-패스워드 같은 경우, crypto 라이브러리를 통하여 암호화 시킨 후 DB에 저장 합니다.
-
-
-
-
+@BeforeMethod,@Test,@AfterMethod를 어노테이션의 의미와 사용법에 대해서 공부했습니다.<br>
+@BeforeMethod 어노테이션에서는, 크롬 드라이버 사용경로를 설정하고,<br>
+드라이버 인스턴스 초기화,get 메소드를 통한 주소 사이트를 오픈하는 코드를 작성 하였습니다.<br>
+@Test 어노테이션에서는 접속 후 사이트에서 자동화할 내용 작성,<br>
+@AfterMethod 어노테이션에서는 드라이버 종료 코드를 작성 했습니다.
 
 <br><br>
 
 
-### 2. 로그인
+
+
+
+
+### 2. 엘리먼트 찾기 및 엘리먼트 대기
  <img src="https://github.com/user-attachments/assets/890ca0dc-cd72-45b4-be05-fd2373b08c3f" width="100%" height="60%">
   <br><br><br>
-로그인 필드는 이메일,패스워드 필드란으로 구성이 되어있고, React-Hook_Form으로 구성 했습니다.<br>
-입력한 데이터가 DB의 데이터와 일치하면, 로그인이 성공 합니다.<br>
-패스워드 같은경우 백엔드에서 복호화를 통하여 입력한 패스워드와 DB의 패스워드와 일치한지 비교 합니다.<br>
-로그인 성공 시, 사용자에게 AccessToken을 부여하며 글로벌 스테이트 인 Recoil에 저장 합니다. 부여받은 AccessToken을 통해 인가를 받게 됩니다.
-현재는 로그인 시, AccessToken을 부여하는 방식 이지만, 추후 RefreshToken을 추가하여 AccessToken 만료시, RefreshToken을 통하여 재발급 예정 입니다.
-
+HTML의 id나 class name 등을 통해 웹페이지에서 원하는 엘리먼트를 찾는 방법을 공부하고,<br>
+로딩중인 웹 엘리먼트를 로딩후에 찾는 방법에 대해 공부 하였다.<br>
+묵시적 대기시간은 WebDriver.Timeouts 인터페이스를 통하여 적용하고 공부 하였으며,<br>
+명시적 대기 시간은 ExpectedCondition 인터페이스를 통하여 적용하고 공부 하였다.<br>
+<br>
+<br>
 
 ### 3. 게시글 작성
  <img src="https://github.com/user-attachments/assets/eda3f001-d725-45e7-a9cd-622d91e8c961" width="80%" height="60%">
