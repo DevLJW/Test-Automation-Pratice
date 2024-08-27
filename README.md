@@ -14,9 +14,10 @@
 
 
 
+
 <!-- ABOUT THE PROJECT -->
 ## 테스트 자동화 연습
-![소통 메인](https://github.com/user-attachments/assets/6a8c83e5-5d15-4c99-9999-1c4591956306)
+![테스트자동화](https://github.com/user-attachments/assets/25a59fcb-4042-4eb8-a1a2-ef2208a4690e)
 <br>
 
 
