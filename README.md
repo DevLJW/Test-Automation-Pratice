@@ -44,9 +44,12 @@
 <br>
 <br>
 
+
+
+
 ## 공부한 내용 소개
 ### 1. 어노테이션 이해 
- <img src="https://github.com/user-attachments/assets/089e63cb-d3f5-4584-a6fd-2e3500c0484d" width="100%" height="60%">
+ <img src="https://github.com/user-attachments/assets/36b85596-0317-4894-88c9-209b139adcd5" width="100%" height="60%">
  <br><br><br>
 @BeforeMethod,@Test,@AfterMethod를 어노테이션의 의미와 사용법에 대해서 공부했습니다.<br>
 @BeforeMethod 어노테이션에서는, 크롬 드라이버 사용경로를 설정하고,<br>
@@ -61,8 +64,10 @@
 
 
 
+
+
 ### 2. 엘리먼트 찾기 및 엘리먼트 대기
- <img src="https://github.com/user-attachments/assets/890ca0dc-cd72-45b4-be05-fd2373b08c3f" width="100%" height="60%">
+ <img src="https://github.com/user-attachments/assets/8497b43b-9c76-4133-96d4-56899c03ee0d" width="100%" height="60%">
   <br><br><br>
 HTML의 id나 class name 등을 통해 웹페이지에서 원하는 엘리먼트를 찾는 방법을 공부하고,<br>
 로딩중인 웹 엘리먼트를 로딩후에 찾는 방법에 대해 공부 하였다.<br>
@@ -71,8 +76,10 @@ HTML의 id나 class name 등을 통해 웹페이지에서 원하는 엘리먼트
 <br>
 <br>
 
+
+
 ### 3. 복합액션
- <img src="https://github.com/user-attachments/assets/eda3f001-d725-45e7-a9cd-622d91e8c961" width="80%" height="60%">
+ <img src="https://github.com/user-attachments/assets/b25ec38f-8701-4279-84bc-8f4db401f08a" width="80%" height="60%">
   <br><br><br>
   사용자가 액션을 여러 개 연결해서 순차적으로 실행하는 복합적인 과정에 대하여<br>
   액션을 공부 하였습니다. (EX : Ctrl + 마우스 클릭 / 클릭 + 드래그 앤 드롭)<br>
@@ -82,8 +89,9 @@ HTML의 id나 class name 등을 통해 웹페이지에서 원하는 엘리먼트
   <br>
   
 
+
 ### 4. 자동 스크린샷 캡쳐
- <img src="https://github.com/user-attachments/assets/1f05ce1e-5e61-4784-988b-53d489bcf132" width="100%" height="60%">
+ <img src="https://github.com/user-attachments/assets/b38dc079-39a9-4117-8f57-e27afd17bf55" width="100%" height="60%">
  스크린샷 기능을 통해 테스트가 실패한 당시의 상황을 남길 수 있어서 스크린샷 구현에 대해 공부 하였습니다.<br>
  웹드라이버 라이브러리의 TakesScreenShot 인터페이스는 모든 웹드라이버의 구현체에서 사용이 가능하여 이 인터페이스로 공부 하였습니다.<br>
  실패 시, 스크린샷을 찍고, target 폴더 하위에 파일을 복사하여 저장하는 형식으로 구현 하였습니다.
