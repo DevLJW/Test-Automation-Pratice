@@ -140,9 +140,11 @@ gethandleWindow() 메소드를 통하여 현재 실행한 웹 브라우저의 �
 ### 8. 웹 드라이버 이벤트
   <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
   <br><br><br>
-
-내용 작성하기!
-
+  셀레늄의 웹 드라이버는 테스트를 수행하는 동안 발생하는 다양한 이벤트를 추적하는 API를 제공 합니다.<br>
+  이벤트를 발생 시킬때는, EventFiringWebDriver 클래스, 수신 및 처리할때는 WebDriverEventListener 인터페이스를 사용 했습니다.<br>
+  이벤트 리스너 파일(수신 및 처리)을 하나 만들어 WebDriverEventListener 파일을 구현 해주고,<br>
+  메인 파일에서 EventFiringWebDriver 인스턴스를 생성하여 register() 메소드를 사용하여 이벤트 리스너 파일을 연결 했습니다.
+ 
   <br><br><br>
 
 ### 9. 접근성 추정
