@@ -150,8 +150,10 @@ gethandleWindow() 메소드를 통하여 현재 실행한 웹 브라우저의 �
 ### 9. 접근성 추정
   <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
   <br><br><br>
-
-내용 작성하기!
+  구글 접근성 개발자 도구 같은 도구로 기본적인 접근성 여부를 확인할 수 있습니다.<br>
+  웹 페이지에 구글 접근성 테스트 라이브러리를 주입해 afterNavigetTo()를 호출때마다, 자동으로<br>
+  접근성을 검사하는 코드를 작성 했습니다. 구글 접근성 개발자 도구에서 제공하는 axe_testing.js 파일을<br>
+  주입하여 콘솔에 로그가 찍히게 구현 하였습니다.
 
   <br><br><br>  
 
