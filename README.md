@@ -101,7 +101,7 @@ HTML의 id나 class name 등을 통해 웹페이지에서 원하는 엘리먼트
 
 
 ### 5. 프레임 간 전환
- <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
+ <img src="https://github.com/user-attachments/assets/b8259ce9-af10-4209-b862-70480f43f701" width="100%" height="60%">
   <br><br><br>
 
 하나의 브라우저 창에서 여러개의 HTML 문서를 동시에 볼 수 있게 해주는 프레임에 대한 프레임 간 전환을 공부 하였습니다.<br>
