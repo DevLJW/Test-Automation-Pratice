@@ -150,8 +150,9 @@ gethandleWindow() 메소드를 통하여 현재 실행한 웹 브라우저의 �
 <br><br>
 
 
+
 ### 8. 웹 드라이버 이벤트
-  <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
+  <img src="https://github.com/user-attachments/assets/ac7d1c54-c4bf-4c1c-a6f2-529f380c033e" width="100%" height="60%">
   <br><br><br>
   셀레늄의 웹 드라이버는 테스트를 수행하는 동안 발생하는 다양한 이벤트를 추적하는 API를 제공 합니다.<br>
   이벤트를 발생 시킬때는, EventFiringWebDriver 클래스, 수신 및 처리할때는 WebDriverEventListener 인터페이스를 사용 했습니다.<br>
@@ -160,8 +161,9 @@ gethandleWindow() 메소드를 통하여 현재 실행한 웹 브라우저의 �
  
   <br><br><br>
 
+
 ### 9. 접근성 추정
-  <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
+  <img src="https://github.com/user-attachments/assets/982af22d-e96d-4484-91f9-4d8b260f35ad" width="100%" height="60%">
   <br><br><br>
   구글 접근성 개발자 도구 같은 도구로 기본적인 접근성 여부를 확인할 수 있습니다.<br>
   웹 페이지에 구글 접근성 테스트 라이브러리를 주입해 afterNavigetTo()를 호출때마다, 자동으로<br>
