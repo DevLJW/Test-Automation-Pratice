@@ -172,8 +172,9 @@ gethandleWindow() 메소드를 통하여 현재 실행한 웹 브라우저의 �
 
   <br><br><br>  
 
+
 ### 10.셀레늄 서버 + 리모트 드라이버
-  <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
+  <img src="https://github.com/user-attachments/assets/f992b3e4-8b5c-4b8d-8dea-6f2c7253b855" width="100%" height="60%">
   <br><br><br>
 
   다양한 OS와 다양한 브라우저에서 테스팅을 진행하기 위해 셀레늄 서버에 대하여 공부 하였습니다.<br>
