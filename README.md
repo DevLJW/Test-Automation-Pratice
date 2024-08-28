@@ -187,8 +187,9 @@ gethandleWindow() 메소드를 통하여 현재 실행한 웹 브라우저의 �
 
   <br><br><br>  
 
+
   ### 11. Sauce Labs
-  <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
+  <img src="https://github.com/user-attachments/assets/1af8731e-aee3-4afc-949e-8f88ce1c1460" width="100%" height="60%">
   크로스 브라우저 테스트를 위한 셀레늄을 그리드 설정하려면 실제 장비나 가상장비에 운영체제와 브라우저를 설치해야한다.<br>
   비용과 운영에 대해 개인환경에서는 구축하기 어렵기 때문에, Sauce Labs를 학습하여 구현 하였다.<br>
   서드파티 클라우드 업체에 손쉽게 다양한 OS와 다양한 브라우저를 테스팅 가능하다.<br>
