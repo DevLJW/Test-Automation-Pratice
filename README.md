@@ -113,8 +113,10 @@ WebDriver 인터페이스의 swithchTo().frame() 메소드를 통하여 프레�
 
 <br><br>
 
+
+
 ### 6. 윈도우 창 전환
- <img src="https://github.com/user-attachments/assets/24750247-1a84-49e1-83c1-e1b9073be04f" width="100%" height="60%">
+ <img src="https://github.com/user-attachments/assets/2020a4cd-1986-47bd-a422-f8a9cf51c7a4" width="100%" height="60%">
   <br><br><br>
 윈도우 간 창 전환에 대하여 공부 하였습니다. WebDriver.TargetLocator 인터페이스를 적용하여 구현 했습니다.<br>
 윈도우 창을 열때마다, 윈도우에서 윈도우 창에 대한 식별값을 지정 해줍니다.<br>
@@ -128,10 +130,12 @@ gethandleWindow() 메소드를 통하여 현재 실행한 웹 브라우저의 �
 
 
 
+
 <br><br>
 
 ### 7. 쿠키 핸들링
- <img src="https://github.com/user-attachments/assets/ce895209-a1fa-485d-8033-40f67e585156" width="100%" height="100%">
+ <img src="https://github.com/user-attachments/assets/1ec87588-7ee7-479f-9082-32e9dcecfa4a" width="100%" height="100%">
+  <img src="https://github.com/user-attachments/assets/3edccb18-94a7-4834-aa4a-0cceb1333baf" width="100%" height="100%">
   <br><br><br>
 최초 로그인할 때 쿠키 정보를 파일에 보관 한 후, 다음번 로그인에는 쿠키를 가져와<br>
 드라이버에 추가하는 식으로 반복되는 로그인 과정을 생략할 수 있습니다.<br>
